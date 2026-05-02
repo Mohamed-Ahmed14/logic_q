@@ -13,6 +13,7 @@ void main(){
   WidgetsFlutterBinding.ensureInitialized();
   SharedHelper.init();
   print('Change main and uploda to github');
+  print('from friend');
   runApp(MultiBlocProvider(
     providers: [
       BlocProvider(create: (context) => SplashCubit(),),
