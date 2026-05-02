@@ -12,6 +12,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 void main(){
   WidgetsFlutterBinding.ensureInitialized();
   SharedHelper.init();
+  print('Change main and uploda to github');
   runApp(MultiBlocProvider(
     providers: [
       BlocProvider(create: (context) => SplashCubit(),),
